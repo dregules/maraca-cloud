@@ -5,7 +5,7 @@
 #include "HardwareFunctions.h"
 #include "AWShelperFunctions.h"
 
-// It is an Arduino hack to include libraries that are referenced in other libraries. 
+// It is an Arduino hack to include libraries that are referenced in other libraries.
 // For example WiFi is used in AWS libraries but we still need to include in the main sketch file for it to be recognized.
 
 #include <WiFi.h>
@@ -27,7 +27,7 @@ void setup() {
 
 	configureIO();
 	accelerometerInit();
-       
+
 	SNSClient_Setup();
 	DynamoBDClient_Setup();
 	KinesisClient_Setup();
@@ -36,8 +36,8 @@ void setup() {
 	indicateServiceThroughLED_blink_Buzzer(DYNAMO_DB);
 
 	Serial.println("Setup complete! Looping main program");
-	Serial.println("Initial mode: DynamoDB");      
-        
+	Serial.println("Initial mode: DynamoDB");
+
 }
 
 unsigned long currentTime = 0;
@@ -51,9 +51,9 @@ int prevButtonVal = LOW;
 
 double xyz[3];
 
-void loop() {                
+void loop() {
 
-	readAcceleration(xyz);	
+	readAcceleration(xyz);
 	if (isAccelerometerShaking(xyz)) {
                 printAcceleration(xyz);
 		// light the onboard LED
@@ -94,68 +94,3 @@ void loop() {
 	prevButtonVal = buttonVal;
 	delay(200);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

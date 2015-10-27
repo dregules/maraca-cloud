@@ -1,8 +1,8 @@
 // keys.cpp
 #include "keys.h"
 
-const char* awsKeyID = "AKIAIBGI365FAFVJKFOA"; // REPLACE with your access key id
-const char* awsSecKey = "JIXHnKduaiYjXisXfKsbbDaqRzZZcxyBoePHtujh"; // REPLACE with your secret access key
+const char* awsKeyID = ""; // REPLACE with your access key id
+const char* awsSecKey = ""; // REPLACE with your secret access key
 
 
 // Init and connect Edison wifi to local wlan
