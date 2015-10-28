@@ -19,8 +19,9 @@ Snapshot taken during the day
 
 
 
-###Final Architecture Overview
+###Connected AWS Services Overview 
 ![AWS Infrastracture Image] (http://connected-maraca-eu-documentationbucket-xpkly09yk8m5.s3-website-eu-west-1.amazonaws.com/_images/edison-overview.png)
+
 
 ##Work on it
 
