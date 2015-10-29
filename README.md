@@ -4,7 +4,7 @@
 ####What is a Maraca?
 A maraca is a percussion musical instrument, kind of like rumba shakers, from Latin America. Read more [here](https://en.wikipedia.org/wiki/Maraca).
 
-As an introduction on the [IoT (Internet of Things)](https://en.wikipedia.org/wiki/Internet_of_Things), I spent the day at [AWS pop-up loft](https://aws.amazon.com/start-ups/loft/) during #AWSIOHACKDAY. We had the opportunity to assemble a connected maraca that streams data to AWS Services, so that you then see real-time data on a dashboard.
+As an introduction on the [IoT (Internet of Things)](https://en.wikipedia.org/wiki/Internet_of_Things), I spent the day at [AWS pop-up loft](https://aws.amazon.com/start-ups/loft/) during #AWSIOHACKDAY. We had the opportunity to assemble a connected maraca(i.e. an accelerometer) that streams data to AWS Services, so that you then see real-time data on a dashboard.
 
 ###Intel Edison Module
 The Intel® Edison module is a SoC (System on Chip) that includes an Intel® Atom™ 500MHz dual-core, dual-threaded CPU and an Intel® Quark™ 100MHz microcontroller. Read more about the [Kit for Arduino](https://www.arduino.cc/en/ArduinoCertified/IntelEdison).
